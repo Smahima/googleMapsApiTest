@@ -12,6 +12,7 @@ ReactDOM.render(
      <BaseLayout>
        <Switch>
          <Route exact path="/" component={App} />
+         <Route exact path="/map" component={Map} />
        </Switch>
      </BaseLayout>
    </BrowserRouter>
