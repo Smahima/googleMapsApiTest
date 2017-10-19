@@ -20,11 +20,12 @@ b. Finalize concept
 c. Outline and wireframe
 d. Basic set up: components, nav bar, templates for each page: login, registration, create, resources
 
-Week 2:
+Week 2: Deciding what technologies to use.
 a. Fetch Google Maps API 19 Oct: map is rendering!
-b. Ratings system Functionality
-c. Database to store reviews (or hardcode data for the purpose of this project)
-d. Social media login
-e. Deciding what technologies to use.
+TODO: Need to render in app.js to display under Navbar. How to do?
+b. Search function
+c. Review form and Ratings system
+d. Database to store reviews (or hardcode data for the purpose of this project)
+e. Social media login
 
 Week 3 a. Styling

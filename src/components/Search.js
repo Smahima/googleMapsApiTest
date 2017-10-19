@@ -13,12 +13,12 @@ class App extends Component {
   }
 
   render () {
-    const filteredEmails = emails.filter(createFilter(this.state.searchTerm, KEYS_TO_FILTERS))
+    const filteredVenues = venue.filter(createFilter(this.state.searchTerm, KEYS_TO_FILTERS))
 
     return (
       <div>
         <SearchInput className="search-input" onChange={this.searchUpdated} />
-        {filteredEmails.map(email => {
+        {filteredVenues.map(email => {
           return (
             <div className="venue" key={venue.id}>
             </div>

@@ -8,15 +8,21 @@ export default class BaseLayout extends Component {
 
 return (
 
-      <div className="nav">
-        <nav className="navbar">
-          <div className="container-fluid">
-            <NavLink className="navLink" activeClassName="selected" to="/"> About</NavLink>
-            <NavLink className="navLink" activeClassName="selected" to="/search"> Search</NavLink>
-            <NavLink className="navLink" activeClassName="selected" to="/resources"> Resources</NavLink>
-          </div>
-        </nav>
-      </div>
+<div className="main">
+
+  <div className="nav">
+    <nav className="navbar">
+      <NavLink className="navLink" activeClassName="selected" to="/"> About</NavLink>
+      <NavLink className="navLink" activeClassName="selected" to="/search"> Search</NavLink>
+      <NavLink className="navLink" activeClassName="selected" to="/resources"> Resources</NavLink>
+    </nav>
+  </div>
+
+  <div className="map">
+
+  </div>
+
+</div>
     );
   }
 }
