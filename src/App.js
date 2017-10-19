@@ -12,6 +12,9 @@ export default class App extends React.Component {
       place_id: '',
       place_location: '',
     };
+    <p>Place: {this.state.place_formatted}</p>,
+    <p>Place ID: {this.state.place_id}</p>,
+    <p>Location: {this.state.place_location}</p>
   }
 
   componentDidMount() {
