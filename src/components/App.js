@@ -1,6 +1,5 @@
 import React from 'react';
-
-import './index.css';
+import '../styles/index.css';
 
 export default class App extends React.Component {
   constructor() {
