@@ -11,14 +11,11 @@ export default class App extends React.Component {
       place_id: '',
       place_location: '',
     };
-    <p>Place: {this.state.place_formatted}</p>,
-    <p>Place ID: {this.state.place_id}</p>,
-    <p>Location: {this.state.place_location}</p>
   }
 
   componentDidMount() {
     let map = new window.google.maps.Map(document.getElementById('map'), {
-      center: {lat: -33.8688, lng: 151.2195},
+      center: {lat: 30.26715, lng: -97.74306},
       zoom: 13,
       mapTypeId: 'roadmap',
     });
