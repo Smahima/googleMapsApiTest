@@ -1,8 +1,7 @@
-import React from 'react';
-import '../styles/index.css';
+import React, {Component} from 'react';
 import GoogleMapReact from 'google-map-react';
 
-export default class Map extends React.Component {
+export default class Map extends Component {
   constructor() {
     super();
     this.state = {
