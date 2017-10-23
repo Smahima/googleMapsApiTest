@@ -16,11 +16,7 @@ return (
       <NavLink className="navLink" activeClassName="selected" to="/search"> Search</NavLink>
       <NavLink className="navLink" activeClassName="selected" to="/resources"> Resources</NavLink>
     </nav>
-  </div>
-
-  <div className="map">
-
-  </div>
+  </div>  
 
 </div>
     );

@@ -28,4 +28,6 @@ c. Review form and Ratings system
 d. Database to store reviews (or hardcode data for the purpose of this project)
 e. Social media login
 
-Week 3 a. Styling
+Week 3: Ditto Week 2.
+
+Week 4: Finish styling and code freeze.
